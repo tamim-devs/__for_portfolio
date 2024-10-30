@@ -16,7 +16,7 @@ function App() {
     <Section1plus/>
     <Section2/>
     <Section3/>
-    <Footer/>
+    {/* <Footer/> */}
     </>
   )
 }
