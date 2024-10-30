@@ -16,17 +16,17 @@ function Section1() {
   return (
     <>
     <div className=' bg-[#FFEDC9] '>
-        <div className='container mx-auto'>
+        <div className='container mx-auto px-3 sm:px-0'>
             <div className='flex justify-center'>
               <div className='flex flex-col'>
                 <h2 className='text-orange-600 text-3xl font-bold text-center'>SERVICES</h2>
-                <h3 className='text-6xl font-bold text-gray-800'>Our services for you</h3>
+                <h3 className='xs:text-3xl xs:text-gray-800 xs:font-bold sm:text-6xl sm:font-bold sm:text-gray-800'>Our services for you</h3>
               </div>
                </div>
             <div>
    {/* -------------------------bax----wraep// */}
 
-              <div className='flex gap-x-8 justify-center'>
+              <div className='xs:flex xs:flex-col xs:items-center sm:flex sm:flex-row sm:gap-x-8 sm:justify-center'>
 
               <div className='w-[420px] h-[583px] bg-white flex flex-col items-center justify-center mt-32'>
                   <div className='flex justify-center'>
@@ -92,7 +92,7 @@ function Section1() {
 
             </div>
 {/* _____________________________icon team */}
-          <div className='pt-40 pb-32  flex justify-center gap-x-48 '>
+          <div className='xs:flex xs:flex-col xs:items-center xs:mt-4 sm:pt-40 sm:pb-32 px-3 sm:px-0  sm:flex sm:flex-row sm:justify-center sm:gap-x-48 max-w-container mx-auto '>
               <div className='flex flex-col justify-center'>
                 <img src={Trophy} alt="" />
                 <span className='text-center text-orange-500 text-4xl font-[800]'>26+</span>
@@ -126,7 +126,7 @@ function Section1() {
                   <img src={Rectangle} alt="" className='absolute' />
                   <img src={Iconplay} alt="" className='absolute' />
                   <h2 className='text-orange-600 text-3xl font-bold text-center absolute mt-40'>FASTEST DELIVERY</h2>
-                  <p className='text-white font-Raleway text-[16px] font-[700] leading-normal absolute w-[573px] text-center mt-80 h-[98px]'> You can get your valuable item in the fastest period of
+                  <p className='xs:w-80 text-white font-Raleway text-[16px] font-[700] leading-normal absolute sm:w-[573px] text-center mt-80 sm:h-[98px]'> You can get your valuable item in the fastest period of
                   time with safety. Because your emergency
                   is our first priority.</p>
                 </div>
